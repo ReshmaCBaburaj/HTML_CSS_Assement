@@ -1,0 +1,37 @@
+
+    /* table styling */
+    table {
+        width: 100%;
+       
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+   
+
+    /* Hover effect */
+    .chcolor:hover {
+        background-color: black;
+        color: white;
+    }
+  
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+        table {
+            overflow-x: auto;
+            display: block;
+        }
+        th, td {
+            white-space: nowrap;
+        }
+    }
